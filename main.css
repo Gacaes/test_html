@@ -38,7 +38,7 @@ h1{
 
 .prof0{
 	margin-bottom: calc(sqrt(10vh*10vh + 25vw*25vw));
-	margin-left: 12.5vh;
+	margin-left: 12.5vw;
 	display: block;
 	position: relative;
 	font-size: calc(sqrt(5vh*5vh + 10vw*10vw));
