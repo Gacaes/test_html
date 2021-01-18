@@ -2,8 +2,17 @@
 <html>
 	<head>
 		<title>EPRUK Test Website</title>
-		<link rel="stylesheet" href="main_css.css">
-		<script src="detector.js"></script>
+		<link rel="stylesheet" href="main.css">
+		<script>
+			var user_agent=navigator.userAgent.toLowerCase();
+			if (user_agent.search("iphone") > -1){
+				window.location.replace("mobile.index.html")
+			}else if (user_agent.search("android") > -1) {
+				window.location.replace("mobile.index.html")
+			}else if (user_agent.search("windows") > -1) {
+				window.location.replace("mobile.index.html")
+			}
+		</script>
 	</head>
 	<body>
 		<!-- <div id="menu">This is a division</div> -->
