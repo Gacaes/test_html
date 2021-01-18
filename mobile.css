@@ -1,0 +1,78 @@
+/*
+
+a.prof {
+	color:Red;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	display: block;
+	position: relative;
+}*/
+
+.role {
+	color:Cyan;
+	font-family:Verdana;
+}
+
+.timeline {
+	color:Blue;
+	font-family:cursive;
+}
+
+h3{
+	color:Green;
+	font-family:Ariel;
+}
+
+h2.prof{
+	color: #855600;
+}
+
+h2{
+	
+	color: #C800C8;
+}
+
+h1{
+	color:#FFC800;
+}
+
+.prof0{
+	margin-bottom: calc(sqrt(10vh*10vh + 25vw*25vw));
+	margin-left: 12.5vw;
+	display: block;
+	position: relative;
+	font-size: calc(sqrt(5vh*5vh + 10vw*10vw));
+}
+
+.FFVAD{
+    margin:0%;
+	width: 100vw;
+}
+
+
+
+.a{color: red;}
+.b{color: green;}
+.c{color: blue;}
+.d{color: yellow;}
+.e{color: cyan;}
+.f{color: magenta;}
+.g{color: orange;}
+.h{color: brown;}
+.i{color: white;}
+.j{color: black;}
+.k{background-color: red;}
+.l{background-color: green;}
+.m{background-color: blue;}
+.n{background-color: yellow;}
+.o{background-color: cyan;}
+.p{background-color: magenta;}
+.q{background-color: orange;}
+.r{background-color: brown;}
+.s{background-color: white;}
+.t{background-color: black;}
+.u{font-family: Arial, Helvetica, sans-serif;}
+.v{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+.w{font-family: cursive;}
+.x{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;}
+.y{width: 10vh; text-align: center;}
