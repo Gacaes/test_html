@@ -1,0 +1,23 @@
+/*
+	Comment
+*/
+
+a { /* Comment */ color: /* Comment */ Red; }
+
+.role {
+	color:Cyan;
+	font-family:Verdana;
+}
+
+.timeline {
+	color:Blue;
+	font-family:cursive;
+}
+
+h3{
+	color:Green;
+	font-family:Ariel;
+}
+h1{
+	color:"FFC800";
+}
