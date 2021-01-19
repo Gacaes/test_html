@@ -7,16 +7,19 @@
 			var user_agent=navigator.userAgent.toLowerCase();
 			if (user_agent.search("iphone") > -1){
 				window.location.replace("mobile.index.html")
+				prompt('IPhone')
 			}else if (user_agent.search("android") > -1) {
+				prompt('Android')
 				window.location.replace("mobile.index.html")
-			}else if (user_agent.search("windows") > -1) {
+			}/*else if (user_agent.search("windows") > -1) {
+				prompt('Windows')
 				window.location.replace("mobile.index.html")
-			}
+			}*/
 		</script>
 	</head>
 	<body>
 		<!-- <div id="menu">This is a division</div> -->
-		<h1 style="text-align: center;">Welcome To The EPRUK Test Website</h1>
+		<h1 style="text-align: center;">Welcome To The EPRUK Desktop Test Website</h1>
 		<!--<img alt="epruk75's profile picture" class="_6q-tv" data-testid="user-avatar" draggable="false" src="https://instagram.flhr3-2.fna.fbcdn.net/v/t51.2885-19/s150x150/101482407_1094802550902548_7945173955495591936_n.jpg?_nc_ht=instagram.flhr3-2.fna.fbcdn.net&amp;_nc_ohc=KMHhhuvFCxEAX9plQ6Y&amp;tp=1&amp;oh=afe25cd5e0b6c8c9edb9d5b8f91bd9ba&amp;oe=602E9E90">-->
 		<table>
 			<tr>
@@ -33,6 +36,7 @@
 				</td>
 			</tr>
 		</table>
+		<!--
 		<h2>About</h2>
 		<p style="text-align: justify;">About Section</p>
 		<hr>
@@ -72,5 +76,6 @@
 				</td>
 			</tr>
 		</table>
+		-->
 	</body>
 </html>
